@@ -1,0 +1,151 @@
+body{
+    font-family: 'Cormorant Garamond', serif;
+font-family: 'Montserrat', sans-serif;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    margin-right: 20px;
+}
+.izquierda{
+    width: 50%;
+    background-color: rgb(248, 185, 10);
+    height: 100vh;
+    padding-top: 100px;
+    padding-left: 80px;
+}
+h1{
+    font-size: 65px;
+    width: 50%;
+}
+span{
+    color: white;
+}
+.izquierda p{
+    font-size: 20px;
+    font-weight: bold;
+    width: 50%;
+    margin-bottom: 40px;
+}
+.izquierda a{
+    border: solid 2px white;
+    padding: 20px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.derecha{
+    width: 50%;
+    background: url(../img/ccade02a1a1167b45560be1698b015e7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.caja{
+    display: flex;
+}
+.contenedor{
+    width: 90%;
+    margin: auto;
+}
+/*comienza sobre mi*/
+h2{
+    text-align: center;
+    font-size: 60px;
+    margin: 30px 0 30px 0;
+}
+.imagen-texto{
+    display: flex;
+    align-items: center;
+}
+.texto{
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: 3px 3px 5px black;
+    padding: 30px;
+
+}
+a{
+    background-color:  rgb(248, 185, 10);
+    padding: 20px;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+}
+/* seccion mis pasatiempos */
+.caja-mis-pasatiempos{
+    display: flex;
+    justify-content: space-between;
+}
+.pasatiempos{
+    width: 30%;
+    box-shadow: 3px 3px 5px black;
+    border-radius: 50px;
+
+}
+.pasatiempos img{
+    width: 100%;
+}
+.pasatiempos h4{
+    text-align: center;
+}
+.pasatiempos p{
+    margin: 20px;
+}
+.pasatiempos a{
+    margin: 20px;
+}
+/* SECCION PARALLAX */
+#parallax h2{
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    font-size: 30px;
+    
+}
+#parallax{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../img/d40f77520c154b3bf4a81f4b63cd1c6f.jpg);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+/* seccion footer */
+footer{
+    background-color:rgb(248, 185, 10);
+    text-align: center;
+    padding: 50px;
+    margin-top: 30px;
+}
+h3{
+
+    font-size: 40px;
+}
+footer p{
+
+    font-weight: bold;
+}
+footer img{
+
+    margin-right: 20px;
+}
+
+/*seccion contacto*/
+#contacto{
+
+    text-align: center;
+}
