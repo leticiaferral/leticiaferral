@@ -170,12 +170,23 @@ footer img{
     margin-bottom: 20px;
 
 }
+
+/*seccion sobre mi*/
 .imagen-texto{
     flex-direction: column;
-    margin-top: 10px
+    margin-top: 10px;
 }
 .imagen-texto img{
     width: 100%;
 }
 
+
+/*secccion mis pasatiempos*/
+.caja-mis-pasatiempos{
+    flex-direction: column;
+}
+.pasatiempos{
+    width: 100%;
+
+}
 }
