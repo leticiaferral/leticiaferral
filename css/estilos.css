@@ -153,7 +153,14 @@ footer img{
  /*menu*/
  .menu{
    flex-direction: column;
-   text-align: center;
+}
+ .menu a{
+   background-color: #fff;
+   padding: 0;
+   color: black;
+}
+ .menu ul{
+ justify-content: center;
 }
 
 
